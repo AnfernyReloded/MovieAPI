@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieWebAPI", "MovieWebAPI\MovieWebAPI.csproj", "{8A2E7C54-81D1-4BA6-A30A-6E4B842B7222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp2", "MovieApp2\MovieApp2.csproj", "{8E215231-FEC4-4A87-8BC5-618AC120EE2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A2E7C54-81D1-4BA6-A30A-6E4B842B7222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2E7C54-81D1-4BA6-A30A-6E4B842B7222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2E7C54-81D1-4BA6-A30A-6E4B842B7222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2E7C54-81D1-4BA6-A30A-6E4B842B7222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E215231-FEC4-4A87-8BC5-618AC120EE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E215231-FEC4-4A87-8BC5-618AC120EE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E215231-FEC4-4A87-8BC5-618AC120EE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E215231-FEC4-4A87-8BC5-618AC120EE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEADEB66-D712-4374-8F6D-60B9C7983BE4}
+	EndGlobalSection
+EndGlobal
