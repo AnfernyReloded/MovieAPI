@@ -26,9 +26,9 @@ namespace MovieWebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddRazorPages();
+            
             var connection = "Server=.\\SQLExpress;Database=Entertainment;Trusted_Connection=True;ConnectRetryCount=0;";
-            services.AddDbContext<EntertainmentDbContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<EntertainmentContext>(options => options.UseSqlServer(connection));
 
 
         }
@@ -56,7 +56,7 @@ namespace MovieWebAPI
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

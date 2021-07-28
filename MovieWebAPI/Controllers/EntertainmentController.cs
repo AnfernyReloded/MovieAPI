@@ -10,8 +10,8 @@ namespace MovieWebAPI.Controllers
     [ApiController]
     public class EntertainmentController : ControllerBase
     {
-        private readonly EntertainmentDbContext _context;
-        public EntertainmentController(EntertainmentDbContext context)
+        private readonly EntertainmentContext _context;
+        public EntertainmentController(EntertainmentContext context)
         {
             _context = context;
         }

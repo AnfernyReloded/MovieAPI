@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace MovieWebAPI.Models
 {
-    public partial class EntertainmentDbContext : DbContext
+    public partial class EntertainmentContext : DbContext
     {
-        public EntertainmentDbContext()
+        public EntertainmentContext()
         {
         }
 
-        public EntertainmentDbContext(DbContextOptions<EntertainmentDbContext> options)
+        public EntertainmentContext(DbContextOptions<EntertainmentContext> options)
             : base(options)
         {
         }
